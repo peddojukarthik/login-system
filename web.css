@@ -5,6 +5,16 @@ text{
     color: beige;
 }
 h1{
-    align-items: center;
     font-family: fantasy;
+    color: bisque;
+     text-align: center;
+     padding-top: 5%;
+}
+#container{
+    height: 50px;
+    width: auto;
+    border: 2dvh white;
+    align-items: center;
+    background-color: azure;
+    box-sizing: content-box;
 }
