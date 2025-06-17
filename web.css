@@ -12,8 +12,10 @@ h1{
 }
 #container{
     height: 50px;
-    width: auto;
+    width: 50px;
+padding-right: 45dvh;
     border: 2dvh white;
+    justify-content: center;
     align-items: center;
     background-color: azure;
     box-sizing: content-box;
