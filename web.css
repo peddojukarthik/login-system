@@ -1,22 +1,30 @@
-body{
-    background-color: black;
+body{margin: 0;
+    padding: 0;
+    background-image: url(Purples-5.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-text{
-    color: beige;
-}
-h1{
-    font-family: fantasy;
-    color: bisque;
-     text-align: center;
+
+h1{ font-size: 5rem;
+    font-family: system-ui;
+    color: rgb(19, 15, 10);
+    
      padding-top: 5%;
+    
 }
 #container{
-    height: 50px;
-    width: 50px;
-padding-right: 45dvh;
-    border: 2dvh white;
-    justify-content: center;
-    align-items: center;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+display: flex;
+   justify-content: center;
+  
     background-color: azure;
-    box-sizing: content-box;
+    border-radius: 10px;
+   
 }
+.username{
+font-family: serif;}
+   
