@@ -27,4 +27,6 @@ display: flex;
 }
 .username{
 font-family: serif;}
-   
+   .humanicon{
+    display: flex;
+   }
