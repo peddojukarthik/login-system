@@ -50,6 +50,11 @@ h1{ font-size: 5rem;
  #button1{
     padding: 16px 32px;
     border-radius: 25%;
+    background-color: #d5b8b2;}
+
+    #button2{
+    padding: 16px 32px;
+    border-radius: 25%;
     background-color: #d5b8b2;
     
  }
