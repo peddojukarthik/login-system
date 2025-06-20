@@ -56,4 +56,12 @@ h1{ font-size: 5rem;
  #button1:hover {
     transform: scale(1.1);
  }
+ .success{
+   background-size: cover;
+   opacity: 0.6;
+ }
+ .searching{
+ background-size: cover;
+   opacity: 0.6;
+ }
  

@@ -13,16 +13,16 @@
         <form action="loginServlet" method="post">
             <div class="humanicon"><p><i class="fa-regular fa-user"></i></p>
         <p class="form1">
-            <input type="text" placeholder="Enter name">    
+            <input type="text" name="username" placeholder="Enter name" required>    
         </p></div><br>
         <div class="password">
         <p><i class="fa-solid fa-key"></i></p>
-        <p id="form2"><input type="password" placeholder="Enter password"></p>
+        <p id="form2"><input type="password" name="password" placeholder="Enter password" required></p>
         </div>
         <article class="submit">
             <div id="button">
-                <button type="submit" id="button1">login</button>
-                <button type="submit" id="button1">signin</button>
+                <button type="submit" name="action" id="button1">login</button>
+                <button type="submit" name="action" id="button1">signin</button>
             </div>
         </article></form>
     </section>
