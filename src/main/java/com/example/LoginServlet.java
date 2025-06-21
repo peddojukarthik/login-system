@@ -56,7 +56,7 @@ public class LoginServlet extends HttpServlet {
             pstmt.close();
         }
         else if ("signin".equals(action)) {
-            String iquery ="INSERT INTO users (username ,password) VALUES (?,?)";
+            String iquery ="INSERT INTO users VALUES (?,?)";
             PreparedStatement pstmt = conn.prepareStatement(iquery);
             pstmt.setString(1, username);
             pstmt.setString(2, password);
