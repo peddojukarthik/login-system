@@ -62,6 +62,13 @@ public class LoginServlet extends HttpServlet {
         }
         else if ("SIGNIN".equals(action)) {
 
+            PreparedStatement checkstmt =conn.prepareStatement("SELECT * from users WHERE username = ?");
+            checkstmt.setString(1, username);
+            ResultSet rs = checkstmt.executeQuery();
+            if (rs.next()){
+                response.sendRedirect("namenew.html");
+            }
+
             String iquery ="INSERT INTO users VALUES (?,?)";
             PreparedStatement pstmt = conn.prepareStatement(iquery);
             pstmt.setString(1, username);
